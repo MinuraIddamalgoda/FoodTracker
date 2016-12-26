@@ -109,7 +109,7 @@ import UIKit
             // Otherwise, set the rating to the selected star
             rating = selectedRating
         }
-        print("star number \(index) tapped")
+        print("star number \(index + 1) tapped")
     }
     
     private func updateButtonSelectionStates(){
